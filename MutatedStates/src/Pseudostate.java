@@ -8,6 +8,7 @@ public class Pseudostate extends State {
 
 	public Pseudostate(final PseudostateType k) {
 		this.kind = k;
+		displayState();
 	}
 
 	public PseudostateType getKind() {

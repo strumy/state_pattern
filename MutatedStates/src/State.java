@@ -36,5 +36,9 @@ public abstract class State {
 	public String toString() {
 		return this.getClass().getSimpleName().toString();
 	}
+	
+	public void displayState() {
+		System.out.println(toString());
+	}
 
 }

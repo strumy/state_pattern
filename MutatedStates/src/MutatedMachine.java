@@ -51,6 +51,9 @@ public class MutatedMachine {
 		
 		mm.executeTransition(2);
 		System.out.println(mm.getCurrentState());
+		
+		mm.executeTransition(6);
+		System.out.println(mm.getCurrentState());
 	}
 
 }
